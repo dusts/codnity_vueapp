@@ -18,9 +18,6 @@
 
 <template>
     <div class="post">
-        <div v-if="loading" class="loading">
-            Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationvue">https://aka.ms/jspsintegrationvue</a> for more details.
-        </div>
         <div>Basic ToDo list</div>
         <div v-if="post" class="content">
             <table>
@@ -42,7 +39,7 @@
                     </tr>
                     <tr>
                         <td><button @click="addNewItem(fname)">Add new ToDo list item!</button></td>
-                        <td><input type="text" class="form-control" value="" v-model="fname" /></td>
+                        <td><input type="text" class="form-control" v-model="fname" /></td>
                     </tr>
                 </tbody>
             </table>
