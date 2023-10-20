@@ -1,0 +1,2 @@
+D:\repos\codnity_mvc_vue\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+D:\repos\codnity_mvc_vue\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
